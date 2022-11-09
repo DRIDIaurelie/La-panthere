@@ -17,7 +17,19 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+.row-social{
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-responsive{
+    width: 100%;
+}
+.center-block{
+    display: block;
+    margin: auto;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -92,6 +104,20 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
+.citation{
+    margin: auto;
+}
+.citation_content{
+    font-size: 20px;
+    font-style: oblique;
+}
+.citation_author{
+    font-size: 14px;
+}
+.texture-paper::before{
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -651,7 +677,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 
 .container {
@@ -676,9 +702,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -771,7 +794,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #973A00;
+    background-color: #993B00;
 }
 
 .tc-white {
@@ -779,7 +802,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #D15000;
+    background: #993B00;
     color: #FFFFFF!important;
 }
 
@@ -810,19 +833,23 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
+}
+
+.contact{
+    padding-top: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -873,8 +900,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +911,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
