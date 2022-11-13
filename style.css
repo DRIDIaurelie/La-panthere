@@ -102,10 +102,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 .citation{
     margin: auto;
 }
@@ -116,11 +112,11 @@ a:hover {
 .citation_author{
     font-size: 14px;
 }
-.texture-paper::before{
+.texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
-
+   
 .b-parallax {
     background-attachment: fixed;
 }
@@ -800,6 +796,9 @@ h4 {
 .tc-white {
     color: white!important;
 }
+.tc-orange{
+    color:#F3976C!important;
+}
 
 .btn-atomic-tangerine {
     background: #993B00;
@@ -807,7 +806,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #973A00 !important;
+    background: #c27956 !important;
     color: #FFFFFF!important;
 }
 
